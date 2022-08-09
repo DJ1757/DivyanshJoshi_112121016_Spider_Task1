@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Check_Feature"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#dcdcdc"
+        android:text="Temperature"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/fahrenheit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/temperature"
+        android:background="#dcdcdc"
+        android:rotationX="0"
+        android:text="Fahrenheit"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/temperature"
+        android:background="#dcdcdc"
+        android:text="Kelvin"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#dcdcdc"
+        android:hint="in degree C"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/fahrenheit1"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@id/check1"
+        android:background="#dcdcdc"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+
+    </EditText>
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="100dp"
+
+        android:layout_toRightOf="@id/input1"
+        android:background="#dcdcdc"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/input3"
+        android:layout_width="45dp"
+        android:layout_height="25sp"
+        android:layout_below="@+id/fahrenheit1"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@id/check1"
+        android:background="#dcdcdc"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/input4"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="200dp"
+
+        android:layout_toRightOf="@id/input1"
+        android:background="#dcdcdc"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/input5"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fahrenheit1"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="220dp"
+        android:layout_toRightOf="@id/check1"
+        android:background="#dcdcdc"
+        android:inputType="numberDecimal"
+
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/input6"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="300dp"
+        android:layout_toRightOf="@id/input1"
+        android:background="#dcdcdc"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/input7"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/fahrenheit1"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="320dp"
+        android:layout_toRightOf="@id/check1"
+        android:background="#dcdcdc"
+
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/input8"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="400dp"
+        android:layout_toRightOf="@id/input1"
+        android:background="#dcdcdc"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/Textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="70dp"
+        android:layout_toRightOf="@id/check1"
+
+        ></TextView>
+
+
+    <TextView
+        android:id="@+id/length1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#dcdcdc"
+        android:text="Length"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/metre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/temperature"
+        android:background="#dcdcdc"
+        android:rotationX="0"
+        android:text="Meter"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/temperature"
+        android:background="#dcdcdc"
+        android:text="Inch"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#dcdcdc"
+        android:hint="in cm"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+
+    <TextView
+        android:id="@+id/weight1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="#dcdcdc"
+        android:text="Weight"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/gram1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@id/temperature"
+        android:background="#dcdcdc"
+        android:rotationX="0"
+        android:text="Gram"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@id/temperature"
+        android:background="#dcdcdc"
+        android:text="Pound"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/check3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="#dcdcdc"
+        android:hint="in Kg"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+
+    <TextView
+        android:id="@+id/speed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="#dcdcdc"
+        android:text="Speed"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/Metre_s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="350dp"
+        android:layout_toRightOf="@id/temperature"
+        android:background="#dcdcdc"
+        android:rotationX="0"
+        android:text="m/s"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="350dp"
+        android:layout_toRightOf="@id/temperature"
+        android:background="#dcdcdc"
+        android:text="Km/Hr"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/check4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:background="#dcdcdc"
+        android:hint="in miles/hr"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="Check" />
+
+
+
+</RelativeLayout>

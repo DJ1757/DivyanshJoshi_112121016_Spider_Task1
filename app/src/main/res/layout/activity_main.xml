@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/Textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#dcdcdc"
+        android:text="Temperature"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/fahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/Textview1"
+        android:background="#dcdcdc"
+        android:rotationX="0"
+        android:text="Fahrenheit"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/Textview1"
+        android:background="#dcdcdc"
+        android:text="Kelvin"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#dcdcdc"
+        android:hint="in degree C"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/value1"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/fahrenheit"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@id/Text1"
+        android:background="#dcdcdc"
+        android:text="00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_toRightOf="@id/Text1"
+        android:layout_marginRight="70dp"
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/value2"
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/value1"
+
+        android:background="#dcdcdc"
+        android:text="000"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#dcdcdc"
+        android:text="Length"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/metre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/Textview1"
+        android:background="#dcdcdc"
+        android:rotationX="0"
+        android:text="Meter"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/Textview1"
+        android:background="#dcdcdc"
+        android:text="Inch"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#dcdcdc"
+        android:hint="in cm"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/value3"
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:layout_below="@+id/fahrenheit"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@id/Text1"
+        android:background="#dcdcdc"
+        android:text="00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/value4"
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/value1"
+        android:background="#dcdcdc"
+        android:text="000"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="#dcdcdc"
+        android:text="Weight"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/gram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@id/Textview1"
+        android:background="#dcdcdc"
+        android:rotationX="0"
+        android:text="Gram"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@id/Textview1"
+        android:background="#dcdcdc"
+        android:text="Pound"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="#dcdcdc"
+        android:hint="in Kg"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/value5"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@+id/fahrenheit"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="220dp"
+        android:layout_toRightOf="@id/Text1"
+        android:background="#dcdcdc"
+        android:text="00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/value6"
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="300dp"
+        android:layout_toRightOf="@id/value1"
+        android:background="#dcdcdc"
+        android:text="000"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="#dcdcdc"
+        android:text="Speed"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/Metre_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="350dp"
+        android:layout_toRightOf="@id/Textview1"
+        android:background="#dcdcdc"
+        android:rotationX="0"
+        android:text="m/s"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="350dp"
+        android:layout_toRightOf="@id/Textview1"
+        android:background="#dcdcdc"
+        android:text="Km/Hr"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:background="#dcdcdc"
+        android:hint="in miles/hr"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/value7"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/fahrenheit"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="320dp"
+        android:layout_toRightOf="@id/Text1"
+        android:background="#dcdcdc"
+        android:text="00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/value8"
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="400dp"
+
+        android:layout_toRightOf="@id/value1"
+        android:background="#dcdcdc"
+        android:text="000"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_marginTop="470dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/level_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
